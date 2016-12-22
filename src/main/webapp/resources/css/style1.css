@@ -1,0 +1,37 @@
+html, body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+div.cadre {
+	border: 1px dotted gray;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+table.tab1 th{
+	border: 1px dotted gray;
+	background: pink;
+	padding: 5px
+}
+
+table.tab1 td{
+	border: 1px dotted gray;
+	background: white;
+	padding: 5px
+}
+
+.errors {
+	color: red;
+}
